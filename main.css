@@ -1,0 +1,438 @@
+body{
+  background-color: #272727;
+}
+
+.logo{
+  padding:0.2%;
+}
+.head1{
+  font-size: 5px;
+  color: #DEDBDB;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.name{
+  font-size: 15px;
+  color: #D6E33A;
+  line-height: 45px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.para{
+  font-size: 10px;
+  color: #DEDBDB;
+  line-height: 22px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#par{ margin-top: 60px;}
+
+/* CSS box model */
+
+.box {
+
+  margin-top :120px;
+  margin-left: 40px
+}
+
+
+.bottom{
+  font-size: 7px;
+  color: #DEDBDB;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: center;
+  top:96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+
+.resume{
+  font-size: 7px;
+  color: #DEDBDB;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:3%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+.resume:hover{
+  color: #D6E33A;
+}
+.resumepic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.email{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #DEDBDB;
+  font-size: 8px;
+  text-decoration:none;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:85%;
+  right: 4%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+
+a:hover, a:active{
+  color: #D6E33A;
+  text-decoration:none
+}
+
+/* fpga catlog */
+
+.fpga img:first-child{
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:inline-block;
+}
+.fpga:hover img:first-child{
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:none;
+}
+.fpga img:last-child{
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:none;
+}
+.fpga:hover img:last-child{
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:inline-block;
+}
+
+
+/* linkedin */
+
+.linkedin img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+}
+.linkedin:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+}
+.linkedin img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+}
+.linkedin:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+}
+
+
+/* twitter */
+
+.twitter img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:inline-block;
+}
+.twitter:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:none;
+}
+.twitter img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:none;
+}
+.twitter:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:inline-block;
+}
+
+/* insta */
+
+.insta img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:inline-block;
+}
+.insta:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:none;
+}
+.insta img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:none;
+}
+.insta:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:inline-block;
+}
+
+/* tablet mode */
+
+@media only screen and (min-width :768px) {
+ .box{
+     margin-top :120px;
+     margin-left: 120px
+ }
+
+  .head1{
+  font-size: 8px;
+  color: #DEDBDB;
+  font-family: 'Inconsolata', monospace;
+  }
+
+  .name{
+    font-size: 18px;
+    color: #D6E33A;
+    line-height: 45px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  .para{
+    font-size: 12px;
+    color: #DEDBDB;
+    line-height: 45px;
+    font-family: 'Inconsolata', monospace;
+  }
+
+
+
+}
+
+
+
+/* laptop mode*/
+
+@media only screen and (min-width :1000px) {
+
+.logo{
+  padding:0.5%;
+}
+.head1{
+  font-size: 10px;
+  color: #DDDBDB;
+  font-family: 'Inconsolata', monospace;
+}
+
+.name{
+  font-size: 30px;
+  color: #D6E33A;
+  line-height: 45px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.para{
+  font-size: 20px;
+  color: #DEDBDB;
+  line-height: 45px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.box {
+
+  margin-top :120px;
+  margin-left: 320px
+}
+
+.bottom{
+  font-size: 10px;
+  color: #DEDBDB;
+  line-height: 20px;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: center;
+  top:90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+
+.resume{
+  font-size: 15px;
+  color: #DEDBDB;
+  line-height: 20px;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:5%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+.resume:hover{
+  color: #D6E33A;
+}
+.resumepic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.email{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #DEDBDB;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration:none;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:75%;
+  right: 3%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+
+a:hover, a:active{
+  color: #D6E33A;
+  text-decoration:none
+}
+
+/* fpga catlog */
+
+.fpga img:first-child{
+  position:absolute;
+  padding:0.5%;
+  bottom: 310px;
+  display:inline-block;
+}
+.fpga:hover img:first-child{
+  position:absolute;
+  padding:0.5%;
+  bottom: 310px;
+  display:none;
+}
+.fpga img:last-child{
+  position:absolute;
+  padding:0.5%;
+  bottom: 310px;
+  display:none;
+}
+.fpga:hover img:last-child{
+  position:absolute;
+  padding:0.5%;
+  bottom: 310px;
+  display:inline-block;
+}
+
+
+/* linkedin */
+
+.linkedin img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 240px;
+  display:inline-block;
+}
+.linkedin:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 240px;
+  display:none;
+}
+.linkedin img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 240px;
+  display:none;
+}
+.linkedin:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 240px;
+  display:inline-block;
+}
+
+
+/* twitter */
+
+.twitter img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+}
+.twitter:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+}
+.twitter img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+}
+.twitter:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+}
+
+/* insta */
+
+.insta img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 100px;
+  display:inline-block;
+}
+.insta:hover img:first-child{
+  position:absolute;
+  padding:1%;
+  bottom: 100px;
+  display:none;
+}
+.insta img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 100px;
+  display:none;
+}
+.insta:hover img:last-child{
+  position:absolute;
+  padding:1%;
+  bottom: 100px;
+  display:inline-block;
+}
+
+}
