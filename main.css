@@ -237,33 +237,49 @@ a:hover, a:active{
     margin-right: auto;
     width: 100%;
   }
-
-.bottom{
+  .bottom{
   font-size: 10px;
   }
-  .resume{
+
+.resume{
   font-size: 10px;
   }
   .email{
-    font-size:10px;
+    font-size: 10px;
   }
 
   /* fpga catlog */
 
 .fpga img:first-child{
-  width:6%;
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:inline-block;
+  width:5%;
   height:auto;
 }
 .fpga:hover img:first-child{
-  width:6%;
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:none;
+  width:5%;
   height:auto;
 }
 .fpga img:last-child{
-  width:6%;
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:none;
+  width:5%;
   height:auto;
 }
 .fpga:hover img:last-child{
-  width:6%;
+  position:absolute;
+  padding:0.1%;
+  bottom: 220px;
+  display:inline-block;
+  width:5%;
   height:auto;
 }
 
@@ -271,19 +287,36 @@ a:hover, a:active{
 /* linkedin */
 
 .linkedin img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
+
 }
 .linkedin:hover img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .linkedin img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .linkedin:hover img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 170px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
 }
 
@@ -291,41 +324,72 @@ a:hover, a:active{
 /* twitter */
 
 .twitter img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
 }
 .twitter:hover img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .twitter img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .twitter:hover img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 120px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
 }
 
 /* insta */
 
 .insta img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
 }
 .insta:hover img:first-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .insta img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:none;
+  width:3.4%;
   height:auto;
 }
 .insta:hover img:last-child{
-  width:4%;
+  position:absolute;
+  padding:1%;
+  bottom: 70px;
+  display:inline-block;
+  width:3.4%;
   height:auto;
 }
-
 
 }
 
@@ -337,6 +401,8 @@ a:hover, a:active{
 
 .logo{
   padding:0.5%;
+  width:8%;
+  height:auto;
 }
 .head1{
   font-size: 10px;
@@ -431,24 +497,32 @@ a:hover, a:active{
   padding:0.5%;
   bottom: 310px;
   display:inline-block;
+  width:3%;
+  height:auto;
 }
 .fpga:hover img:first-child{
   position:absolute;
   padding:0.5%;
   bottom: 310px;
   display:none;
+  width:3%;
+  height:auto;
 }
 .fpga img:last-child{
   position:absolute;
   padding:0.5%;
   bottom: 310px;
   display:none;
+  width:3%;
+  height:auto;
 }
 .fpga:hover img:last-child{
   position:absolute;
   padding:0.5%;
   bottom: 310px;
   display:inline-block;
+  width:3%;
+  height:auto;
 }
 
 
@@ -459,24 +533,32 @@ a:hover, a:active{
   padding:1%;
   bottom: 240px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 .linkedin:hover img:first-child{
   position:absolute;
   padding:1%;
   bottom: 240px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .linkedin img:last-child{
   position:absolute;
   padding:1%;
   bottom: 240px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .linkedin:hover img:last-child{
   position:absolute;
   padding:1%;
   bottom: 240px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 
 
@@ -487,24 +569,32 @@ a:hover, a:active{
   padding:1%;
   bottom: 170px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 .twitter:hover img:first-child{
   position:absolute;
   padding:1%;
   bottom: 170px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .twitter img:last-child{
   position:absolute;
   padding:1%;
   bottom: 170px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .twitter:hover img:last-child{
   position:absolute;
   padding:1%;
   bottom: 170px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 
 /* insta */
@@ -514,24 +604,32 @@ a:hover, a:active{
   padding:1%;
   bottom: 100px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 .insta:hover img:first-child{
   position:absolute;
   padding:1%;
   bottom: 100px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .insta img:last-child{
   position:absolute;
   padding:1%;
   bottom: 100px;
   display:none;
+  width:2%;
+  height:auto;
 }
 .insta:hover img:last-child{
   position:absolute;
   padding:1%;
   bottom: 100px;
   display:inline-block;
+  width:2%;
+  height:auto;
 }
 
 }
