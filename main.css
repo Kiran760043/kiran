@@ -229,7 +229,14 @@ a:hover, a:active{
     font-family: 'Inconsolata', monospace;
   }
 
-
+  .resumepic{
+    padding:10%;
+    margin-top:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
 }
 
@@ -296,12 +303,15 @@ a:hover, a:active{
 .resume:hover{
   color: #D6E33A;
 }
-.resumepic{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
+  .resumepic{
+    padding:0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 
 .email{
