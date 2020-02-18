@@ -205,25 +205,25 @@ a:hover, a:active{
 
 @media only screen and (min-width :768px) {
  .box{
-     margin-top :120px;
-     margin-left: 120px
+     margin-top :170px;
+     margin-left: 170px
  }
 
   .head1{
-  font-size: 8px;
+  font-size: 10px;
   color: #DEDBDB;
   font-family: 'Inconsolata', monospace;
   }
 
   .name{
-    font-size: 18px;
+    font-size: 24px;
     color: #D6E33A;
     line-height: 45px;
     font-family: 'Noto Sans TC', sans-serif;
   }
 
   .para{
-    font-size: 12px;
+    font-size: 16px;
     color: #DEDBDB;
     line-height: 45px;
     font-family: 'Inconsolata', monospace;
@@ -237,6 +237,95 @@ a:hover, a:active{
     margin-right: auto;
     width: 100%;
   }
+
+.bottom{
+  font-size: 10px;
+  }
+  .resume{
+  font-size: 10px;
+  }
+  .email{
+    font-size:10px;
+  }
+
+  /* fpga catlog */
+
+.fpga img:first-child{
+  width:6%;
+  height:auto;
+}
+.fpga:hover img:first-child{
+  width:6%;
+  height:auto;
+}
+.fpga img:last-child{
+  width:6%;
+  height:auto;
+}
+.fpga:hover img:last-child{
+  width:6%;
+  height:auto;
+}
+
+
+/* linkedin */
+
+.linkedin img:first-child{
+  width:4%;
+  height:auto;
+}
+.linkedin:hover img:first-child{
+  width:4%;
+  height:auto;
+}
+.linkedin img:last-child{
+  width:4%;
+  height:auto;
+}
+.linkedin:hover img:last-child{
+  width:4%;
+  height:auto;
+}
+
+
+/* twitter */
+
+.twitter img:first-child{
+  width:4%;
+  height:auto;
+}
+.twitter:hover img:first-child{
+  width:4%;
+  height:auto;
+}
+.twitter img:last-child{
+  width:4%;
+  height:auto;
+}
+.twitter:hover img:last-child{
+  width:4%;
+  height:auto;
+}
+
+/* insta */
+
+.insta img:first-child{
+  width:4%;
+  height:auto;
+}
+.insta:hover img:first-child{
+  width:4%;
+  height:auto;
+}
+.insta img:last-child{
+  width:4%;
+  height:auto;
+}
+.insta:hover img:last-child{
+  width:4%;
+  height:auto;
+}
+
 
 }
 
