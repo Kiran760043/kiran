@@ -9,9 +9,9 @@ body{
   margin-bottom: 85%;
 }
 .titl{
-  font-size: 17px;
+  font-size: 10px;
   color: #D6E33A;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Noto Sans TC', sans-serif;
   line-height: 40px;
   position:absolute;
   text-align: right;
@@ -60,9 +60,9 @@ a:hover{
   margin-bottom: 85%;
 }
   .titl{
-    font-size: 25px;
+    font-size: 12px;
     color: #D6E33A;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans TC', sans-serif;
     line-height: 40px;
     position:absolute;
     text-align: right;
@@ -121,7 +121,7 @@ a:hover{
   margin: 0;
 }
 .titl{
-  font-size: 40px;
+  font-size: 20px;
   }
 
 }
