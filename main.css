@@ -117,25 +117,25 @@ a:hover, a:active{
 
 .fpga img:first-child{
   position:absolute;
-  padding:0.1%;
+  padding:1%;
   bottom: 220px;
   display:inline-block;
 }
 .fpga:hover img:first-child{
   position:absolute;
-  padding:0.1%;
+  padding:1%;
   bottom: 220px;
   display:none;
 }
 .fpga img:last-child{
   position:absolute;
-  padding:0.1%;
+  padding:1%;
   bottom: 220px;
   display:none;
 }
 .fpga:hover img:last-child{
   position:absolute;
-  padding:0.1%;
+  padding:1%;
   bottom: 220px;
   display:inline-block;
 }
