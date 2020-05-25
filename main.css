@@ -78,6 +78,20 @@ body{
   width: 50%;
 }
 
+.fpgaprojects{
+  font-size: 7px;
+  color: #DEDBDB;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:3%;
+  right: 8%;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+.fpgaprojects:hover{
+  color: #D6E33A;
+}
 
 .email{
   writing-mode: vertical-rl;
@@ -99,7 +113,7 @@ a:hover, a:active{
   text-decoration:none
 }
 
-/* fpga catlog */
+/* GIT HUB LINK */
 
 .fpga img:first-child{
   position:absolute;
@@ -255,11 +269,16 @@ a:hover, a:active{
 .resume{
   font-size: 10px;
   }
+
+  .fpgaprojects{
+    font-size: 10px;
+  }
+
   .email{
     font-size: 10px;
   }
 
-  /* fpga catlog */
+  /* GIT HUB LINK */
 
 .fpga img:first-child{
   position:absolute;
@@ -451,11 +470,17 @@ a:hover, a:active{
 .resume{
   font-size: 10px;
   }
+
+  .fpgaprojects{
+    font-size: 10px;
+    right: 6%;
+  }
+
   .email{
     font-size: 10px;
   }
 
-  /* fpga catlog */
+  /* GIT HUB LINK */
 
 .fpga img:first-child{
   position:absolute;
@@ -672,7 +697,21 @@ a:hover, a:active{
     width: 50%;
   }
 
-
+  .fpgaprojects{
+    font-size: 15px;
+    color: #DEDBDB;
+    line-height: 20px;
+    font-family: 'Inconsolata', monospace;
+    position:absolute;
+    text-align: right;
+    top:5%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    margin: 0
+  }
+  .fpgaprojects:hover{
+    color: #D6E33A;
+  }
 
 .email{
   writing-mode: vertical-rl;
